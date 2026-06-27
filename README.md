@@ -1,4 +1,4 @@
-# More Than a Scar
+# Beyond The Burn
 
 A simple static website for a pediatric burn recovery project.
 
