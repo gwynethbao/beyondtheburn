@@ -3,80 +3,123 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A simple Hello World site deployed with Netlify.">
-    <title>Hello World | Beyond the Burn</title>
-    <style>
-      :root {
-        color-scheme: light;
-        --bg: #fff0f7;
-        --ink: #1f2933;
-        --accent: #db2777;
-        --panel: #fff7fb;
-        --ring: rgba(219, 39, 119, 0.22);
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        min-height: 100vh;
-        margin: 0;
-        display: grid;
-        place-items: center;
-        background:
-          radial-gradient(circle at top left, rgba(219, 39, 119, 0.18), transparent 30rem),
-          linear-gradient(135deg, var(--bg), #fdf2f8);
-        color: var(--ink);
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      }
-
-      main {
-        width: min(92vw, 46rem);
-        padding: clamp(2rem, 6vw, 4.5rem);
-        border: 1px solid rgba(31, 41, 51, 0.12);
-        border-radius: 8px;
-        background: color-mix(in srgb, var(--panel) 92%, white);
-        box-shadow: 0 24px 80px rgba(31, 41, 51, 0.14);
-        text-align: center;
-      }
-
-      p {
-        margin: 0;
-        color: #52616b;
-        font-size: clamp(1rem, 2vw, 1.2rem);
-        line-height: 1.65;
-      }
-
-      h1 {
-        margin: 0 0 1rem;
-        font-size: clamp(2.5rem, 10vw, 6rem);
-        line-height: 0.95;
-        letter-spacing: 0;
-      }
-
-      .badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        margin-bottom: 1.25rem;
-        padding: 0.45rem 0.75rem;
-        border: 1px solid var(--ring);
-        border-radius: 999px;
-        color: var(--accent);
-        font-size: 0.85rem;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-    </style>
+    <meta name="description" content="More Than a Scar helps children and families navigate life after a burn injury.">
+    <title>More Than a Scar | Pediatric Burn Recovery</title>
+    <link rel="icon" href="assets/images/mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="More Than a Scar home">
+        <img src="assets/images/mark.svg" alt="" width="38" height="38">
+        <span>More Than a Scar</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a aria-current="page" href="index.html">Home</a>
+        <a href="stories.html">Stories</a>
+        <a href="resources.html">Recovery Guide</a>
+        <a href="about.html">About</a>
+        <a class="nav-button" href="share.html">Share Your Story</a>
+      </nav>
+    </header>
+
     <main>
-      <div class="badge">Netlify ready</div>
-      <h1>Hello, world.</h1>
-      <p>
-        This tiny site is ready to deploy from GitHub through Netlify.
-      </p>
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">Pediatric burn recovery support</p>
+          <h1>Helping children and families navigate life after a burn injury.</h1>
+          <p class="lead">
+            More Than a Scar brings together survivor stories, practical recovery resources,
+            and trusted guidance for families navigating the months and years after a child’s burn injury.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="stories.html">Read Stories</a>
+            <a class="button secondary" href="resources.html">Explore Recovery Guide</a>
+          </div>
+        </div>
+        <div class="hero-note" aria-label="Project focus areas">
+          <div>
+            <span class="note-number">01</span>
+            <p>Stories that remind families they are not alone.</p>
+          </div>
+          <div>
+            <span class="note-number">02</span>
+            <p>Plain-language recovery topics for life after the hospital.</p>
+          </div>
+          <div>
+            <span class="note-number">03</span>
+            <p>A careful, respectful way to share lived experience.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section narrow">
+        <p class="eyebrow">Why this exists</p>
+        <h2>Recovery does not end when the wound closes.</h2>
+        <p>
+          Burn recovery can involve scar care, follow-up appointments, painful treatments,
+          returning to school, emotional adjustment, and questions families may not know how
+          to ask. This project was created to help families feel more informed, supported,
+          and less alone.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Core areas</p>
+          <h2>Support for the recovery journey</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="card">
+            <span class="card-icon">S</span>
+            <h3>Survivor Stories</h3>
+            <p>
+              Real experiences from burn survivors and families, focused on recovery,
+              confidence, and life after injury.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-icon sage">G</span>
+            <h3>Recovery Guide</h3>
+            <p>
+              Curated information about scar care, returning to school, emotional recovery,
+              burn camps, and support resources.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-icon navy">Y</span>
+            <h3>Share Your Story</h3>
+            <p>
+              Help another child or family feel less alone by sharing your experience with
+              burn recovery.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-band">
+        <div>
+          <p class="eyebrow">Have a story to share?</p>
+          <h2>Your perspective may help another family.</h2>
+          <p>
+            Whether you are a survivor, parent, sibling, clinician, or caregiver, your
+            perspective may help another family feel less alone.
+          </p>
+        </div>
+        <a class="button primary" href="share.html">Share Your Story</a>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <p>
+        More Than a Scar is an educational project focused on pediatric burn recovery.
+        Content is for informational purposes only and is not a substitute for medical advice.
+      </p>
+      <nav aria-label="Footer navigation">
+        <a href="mailto:hello@example.org">Contact</a>
+        <a href="share.html">Share Your Story</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+    </footer>
   </body>
 </html>

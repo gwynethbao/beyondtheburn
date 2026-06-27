@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Share your burn recovery story with More Than a Scar.">
+    <title>Share Your Story | More Than a Scar</title>
+    <link rel="icon" href="assets/images/mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="More Than a Scar home">
+        <img src="assets/images/mark.svg" alt="" width="38" height="38">
+        <span>More Than a Scar</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="stories.html">Stories</a>
+        <a href="resources.html">Recovery Guide</a>
+        <a href="about.html">About</a>
+        <a class="nav-button" aria-current="page" href="share.html">Share Your Story</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero section narrow">
+        <p class="eyebrow">Share Your Story</p>
+        <h1>Your experience may help another family feel less alone.</h1>
+        <p class="lead">
+          If you are a burn survivor, parent, sibling, caregiver, or healthcare professional,
+          your experience may help another family feel less alone.
+        </p>
+      </section>
+
+      <section class="section form-section">
+        <form class="story-form" name="story-interest" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="story-interest">
+
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email">
+
+          <label for="role">I am a</label>
+          <select id="role" name="role">
+            <option value="">Select one</option>
+            <option>Survivor</option>
+            <option>Parent</option>
+            <option>Family member</option>
+            <option>Healthcare professional</option>
+            <option>Other</option>
+          </select>
+
+          <label for="age-at-injury">Age at injury, if applicable</label>
+          <input id="age-at-injury" name="age-at-injury" type="text">
+
+          <label for="message">Short message</label>
+          <textarea id="message" name="message" rows="6"></textarea>
+
+          <label class="checkbox-row" for="contact-consent">
+            <input id="contact-consent" name="contact-consent" type="checkbox">
+            <span>I am interested in being contacted about sharing my story</span>
+          </label>
+
+          <button class="button primary" type="submit">Send Interest</button>
+        </form>
+
+        <aside class="callout">
+          <h2>Privacy Note</h2>
+          <p>
+            Submitting this form does not mean your story will be published. No story will be
+            shared publicly without your review and permission.
+          </p>
+          <p class="contact-line">Contact: <a href="mailto:hello@example.org">hello@example.org</a></p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        More Than a Scar is an educational project focused on pediatric burn recovery.
+        Content is for informational purposes only and is not a substitute for medical advice.
+      </p>
+      <nav aria-label="Footer navigation">
+        <a href="mailto:hello@example.org">Contact</a>
+        <a href="share.html">Share Your Story</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+    </footer>
+  </body>
+</html>
