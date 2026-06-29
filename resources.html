@@ -6,7 +6,7 @@
     <meta name="description" content="A recovery guide for families after a child's burn injury.">
     <title>Recovery Guide | Beyond the Burn</title>
     <link rel="icon" href="assets/images/mark.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=recovery-guide">
   </head>
   <body>
     <header class="site-header">
@@ -26,107 +26,271 @@
     </header>
 
     <main>
-      <section class="page-hero section narrow">
-        <p class="eyebrow">Recovery Guide</p>
-        <h1>Reliable starting points for common recovery questions.</h1>
-        <p class="lead">
-          This guide is meant to help families find reliable information and think through common
-          questions after a child’s burn injury. It does not replace advice from a medical professional.
-        </p>
+      <section class="page-hero guide-hero section">
+        <div>
+          <p class="eyebrow">Recovery Guide</p>
+          <h1>Recovery Guide</h1>
+          <p class="lead">
+            Burn recovery can continue long after the wound closes. This guide brings together
+            first-aid basics, recovery topics, trusted resources, and real experiences to help
+            families know where to begin.
+          </p>
+        </div>
+        <div class="guide-hero-art" aria-hidden="true">
+          <span>♡</span>
+          <span>+</span>
+          <span>★</span>
+        </div>
       </section>
 
-      <section class="section immediate-guide" aria-labelledby="immediate-guide-title">
-        <div class="callout-card guide-callout">
-          <div>
-            <p class="eyebrow">Quick guide</p>
-            <h2 id="immediate-guide-title">Immediate Burn First Aid</h2>
+      <nav class="section guide-jump-links" aria-label="Recovery guide sections">
+        <a href="#first-aid">First Aid</a>
+        <a href="#timeline">Recovery Timeline</a>
+        <a href="#emotional-recovery">Emotional Recovery</a>
+        <a href="#stories">Stories</a>
+        <a href="#trusted-resources">Trusted Resources</a>
+      </nav>
+
+      <section class="section first-aid-feature" id="first-aid" aria-labelledby="first-aid-title">
+        <div class="section-heading">
+          <p class="eyebrow">Quick guide</p>
+          <h2 id="first-aid-title">Immediate Burn First Aid</h2>
+          <p>
+            A burn injury can feel overwhelming in the moment. This quick guide summarizes basic
+            first steps families can take while seeking appropriate medical care.
+          </p>
+        </div>
+
+        <figure class="guide-frame">
+          <img
+            src="assets/images/burn-first-aid-info.png"
+            alt="Quick-reference burn first aid card showing the steps cool, remove, and cover, plus warnings about when to seek medical help."
+          >
+        </figure>
+
+        <div class="guide-actions" aria-label="First aid guide actions">
+          <a class="button primary" href="assets/images/burn-first-aid-info.png" download>Download / Print Guide</a>
+          <a class="button secondary" href="#trusted-resources">View Trusted First Aid Resources</a>
+        </div>
+
+        <p class="mini-disclaimer">
+          This information is for educational purposes only and is not a substitute for professional
+          medical advice. For serious, large, electrical, chemical, or concerning burns, seek medical
+          care immediately.
+        </p>
+
+        <div class="card-grid three first-aid-steps" aria-label="First aid steps">
+          <article class="card first-aid-step">
+            <span class="card-icon" aria-hidden="true">~</span>
+            <h3>Cool the burn</h3>
+            <p>Use cool water while getting the right help for the situation.</p>
+          </article>
+          <article class="card first-aid-step">
+            <span class="card-icon sage" aria-hidden="true">○</span>
+            <h3>Remove clothing or jewelry near the burn</h3>
+            <p>Move nearby items away from the injured area when it is safe to do so.</p>
+          </article>
+          <article class="card first-aid-step">
+            <span class="card-icon navy" aria-hidden="true">□</span>
+            <h3>Cover with a clean cloth or dressing</h3>
+            <p>Protect the area gently while seeking appropriate medical care.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="timeline" aria-labelledby="timeline-title">
+        <div class="section-heading">
+          <p class="eyebrow">Recovery timeline</p>
+          <h2 id="timeline-title">Recovery is a Journey</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-stage">
+            <span aria-hidden="true">1</span>
+            <h3>Right Away</h3>
+            <p>Families may need quick first aid, emergency care, and reassurance.</p>
+          </article>
+          <article class="timeline-stage">
+            <span aria-hidden="true">2</span>
+            <h3>Hospital or Clinic Care</h3>
+            <p>Care teams may help with wound cleaning, dressings, pain management, and follow-up plans.</p>
+          </article>
+          <article class="timeline-stage">
+            <span aria-hidden="true">3</span>
+            <h3>First Days at Home</h3>
+            <p>Families often adjust to bandage changes, appointments, school routines, and uncertainty.</p>
+          </article>
+          <article class="timeline-stage">
+            <span aria-hidden="true">4</span>
+            <h3>Ongoing Healing</h3>
+            <p>Recovery may include scar care, movement, emotional adjustment, and returning to normal activities.</p>
+          </article>
+          <article class="timeline-stage">
+            <span aria-hidden="true">5</span>
+            <h3>Long-Term Recovery</h3>
+            <p>Some children continue follow-up care, scar treatments, or emotional healing months or years later.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="topics-title">
+        <div class="section-heading">
+          <p class="eyebrow">Recovery topics</p>
+          <h2 id="topics-title">Topics Families May Navigate</h2>
+        </div>
+        <div class="topic-grid">
+          <article class="card topic-card">
+            <span class="topic-icon" aria-hidden="true">✦</span>
+            <h3>Scar Care</h3>
+            <p>Learn about broad scar care topics families may discuss with a care team.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon blue" aria-hidden="true">◇</span>
+            <h3>Laser Treatment</h3>
+            <p>Explore future information about laser treatment conversations and support.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon green" aria-hidden="true">→</span>
+            <h3>Returning to School</h3>
+            <p>Find support for school routines, questions, and confidence.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon purple" aria-hidden="true">♡</span>
+            <h3>Confidence & Body Image</h3>
+            <p>Connect with resources for confidence, feelings, and self-image.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon" aria-hidden="true">☼</span>
+            <h3>Burn Camps</h3>
+            <p>Discover camp and peer-support opportunities for children and teens.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon green" aria-hidden="true">+</span>
+            <h3>Parent Support</h3>
+            <p>Find reassurance and connection for caregivers navigating recovery too.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon blue" aria-hidden="true">↔</span>
+            <h3>Physical & Occupational Therapy</h3>
+            <p>Learn how therapy support may fit into a child’s broader recovery plan.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon" aria-hidden="true">○</span>
+            <h3>Sun Protection</h3>
+            <p>Explore future guidance for protecting healing skin during everyday life.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon purple" aria-hidden="true">☁</span>
+            <h3>Mental Health</h3>
+            <p>Find emotional support resources for children, parents, and families.</p>
+            <a href="#">Learn more</a>
+          </article>
+          <article class="card topic-card">
+            <span class="topic-icon green" aria-hidden="true">※</span>
+            <h3>Finding Community</h3>
+            <p>Connect with survivor communities and supportive programs.</p>
+            <a href="#">Learn more</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="emotional-recovery" aria-labelledby="emotional-title">
+        <div class="healing-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Emotional recovery</p>
+            <h2 id="emotional-title">Healing Is More Than Physical</h2>
             <p>
-              A calm, printable reference for the first steps families can take while seeking
-              appropriate medical care.
+              Children and families may face questions, worries, or changes in confidence after a
+              burn injury. Alongside medical care, emotional support, community, and shared
+              experiences can play an important role in recovery.
             </p>
           </div>
-          <a class="button primary" href="first-aid.html">Open First Aid Guide</a>
+          <div class="card-grid three">
+            <article class="card">
+              <span class="card-icon" aria-hidden="true">♡</span>
+              <h3>For Children</h3>
+              <p>Stories and support can help children feel less alone.</p>
+            </article>
+            <article class="card">
+              <span class="card-icon sage" aria-hidden="true">+</span>
+              <h3>For Parents</h3>
+              <p>Parents may need reassurance, practical guidance, and connection too.</p>
+            </article>
+            <article class="card">
+              <span class="card-icon navy" aria-hidden="true">★</span>
+              <h3>For Families</h3>
+              <p>Recovery can affect siblings, routines, school, and daily life.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section">
-        <div class="resource-grid">
-          <article class="card resource-card">
-            <h2>First Aid and Immediate Care</h2>
+      <section class="section" id="stories" aria-labelledby="stories-title">
+        <div class="callout-card stories-guide-card">
+          <div>
+            <p class="eyebrow">Stories</p>
+            <h2 id="stories-title">Hear From Others Who Have Been There</h2>
             <p>
-              For urgent burn care information, always follow medical guidance and contact a
-              healthcare professional when needed.
+              Survivor stories can help families understand that recovery looks different for everyone.
             </p>
-            <ul>
-              <li><a href="first-aid.html">Immediate Burn First Aid guide</a></li>
-              <li><a href="#" aria-label="American Burn Association placeholder link">American Burn Association</a></li>
-              <li><a href="#" aria-label="Local burn center resources placeholder link">Local burn center resources</a></li>
-            </ul>
-          </article>
-
-          <article class="card resource-card">
-            <h2>After the Hospital</h2>
-            <ul>
-              <li>What follow-up care may look like</li>
-              <li>Bandage changes</li>
-              <li>Pain and discomfort</li>
-              <li>Questions to ask your care team</li>
-            </ul>
-          </article>
-
-          <article class="card resource-card">
-            <h2>Scar Care</h2>
-            <ul>
-              <li>Scar management</li>
-              <li>Sun protection</li>
-              <li>Compression garments</li>
-              <li>Laser treatments</li>
-              <li>Skin texture and appearance changes</li>
-            </ul>
-          </article>
-
-          <article class="card resource-card">
-            <h2>Returning to School</h2>
-            <ul>
-              <li>Talking to teachers</li>
-              <li>Explaining the injury to classmates</li>
-              <li>PE, sports, and activities</li>
-              <li>Handling questions or unwanted attention</li>
-            </ul>
-          </article>
-
-          <article class="card resource-card">
-            <h2>Emotional Recovery</h2>
-            <ul>
-              <li>Feeling self-conscious</li>
-              <li>Anxiety about appearance</li>
-              <li>Parent stress</li>
-              <li>Sibling experiences</li>
-              <li>When to seek mental health support</li>
-            </ul>
-          </article>
-
-          <article class="card resource-card">
-            <h2>Burn Camps and Community Support</h2>
-            <ul>
-              <li>Burn camps</li>
-              <li>Peer support</li>
-              <li>Survivor communities</li>
-              <li>Family support organizations</li>
-            </ul>
-          </article>
+            <p class="guide-quote">“Recovery does not end when the wound closes.”</p>
+          </div>
+          <a class="button primary" href="stories.html">Read Recovery Journeys</a>
         </div>
       </section>
 
-      <section class="section narrow">
-        <div class="disclaimer">
-          <h2>Medical Disclaimer</h2>
+      <section class="section" id="trusted-resources" aria-labelledby="trusted-title">
+        <div class="section-heading">
+          <p class="eyebrow">Trusted resources</p>
+          <h2 id="trusted-title">Trusted Resources</h2>
+        </div>
+        <div class="resource-grid trusted-resource-grid">
+          <article class="card resource-card">
+            <h3>American Burn Association</h3>
+            <p>Placeholder link for national burn education and professional resources.</p>
+            <a href="#">Visit resource</a>
+          </article>
+          <article class="card resource-card">
+            <h3>Phoenix Society for Burn Survivors</h3>
+            <p>Placeholder link for survivor support, education, and community programs.</p>
+            <a href="#">Visit resource</a>
+          </article>
+          <article class="card resource-card">
+            <h3>Legacy Oregon Burn Center</h3>
+            <p>Placeholder link for burn center resources and regional support.</p>
+            <a href="#">Visit resource</a>
+          </article>
+          <article class="card resource-card">
+            <h3>Burn Camps & Support Programs</h3>
+            <p>Placeholder link for camps, peer support, and family programs.</p>
+            <a href="#">Visit resource</a>
+          </article>
+          <article class="card resource-card">
+            <h3>Local Burn Centers</h3>
+            <p>Placeholder link for finding nearby burn care and follow-up support.</p>
+            <a href="#">Visit resource</a>
+          </article>
+        </div>
+        <div class="disclaimer resource-note">
           <p>
-            This page is for educational purposes only. Always consult your child’s healthcare
-            team for medical advice specific to your situation.
+            Beyond the Burn is not a medical provider. Our goal is to help families find trusted
+            information, lived experiences, and supportive resources.
           </p>
         </div>
       </section>
+
+      <aside class="floating-first-aid" aria-labelledby="floating-first-aid-title">
+        <h2 id="floating-first-aid-title">Need first aid fast?</h2>
+        <p>Open the quick burn first-aid guide.</p>
+        <a class="button primary" href="#first-aid">View Guide</a>
+      </aside>
     </main>
 
     <footer class="site-footer">
