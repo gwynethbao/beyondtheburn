@@ -1,4 +1,4 @@
-# Beyond The Burn
+# Beyond the Burn
 
 A simple static website for a pediatric burn recovery project.
 

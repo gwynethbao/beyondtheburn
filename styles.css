@@ -226,6 +226,7 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
   min-height: 2.85rem;
   padding: 0.78rem 1.05rem;
   border-radius: 999px;
@@ -722,4 +723,16 @@ p {
   .button {
     width: 100%;
   }
+}
+
+.placeholder-page {
+  min-height: 48vh;
+}
+
+.placeholder-page::after {
+  content: "";
+  width: 9rem;
+  height: 0.9rem;
+  border-radius: 999px;
+  background: repeating-linear-gradient(90deg, var(--rust) 0 0.8rem, var(--sun) 0.8rem 1.6rem, var(--sky) 1.6rem 2.4rem, var(--sage) 2.4rem 3.2rem);
 }
