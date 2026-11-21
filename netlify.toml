@@ -1,2 +1,8 @@
 [build]
   publish = "."
+
+[[redirects]]
+  from = "https://tranquil-babka-c60989.netlify.app/*"
+  to = "https://beyondburnstogether.org/:splat"
+  status = 301
+  force = true
